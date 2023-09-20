@@ -43,7 +43,7 @@ class CreateNewEmployeeWithIncorrectDataCest
 
     private function incorrectDataProvider(): iterable
     {
-      /*  yield [
+        yield [
             'requestBody' => [
                 'name' => null,
                 'email' => 'test1@test.ru',
@@ -94,8 +94,8 @@ class CreateNewEmployeeWithIncorrectDataCest
                         'email' => '',
                         'position' => 'CEO',
                         'age' => 23
-                    ]];*/
-    //TUTUTUTTUT
+                    ]];
+
                     yield [
                     'requestBody' => [
                         'name' => 'Mihail',
@@ -103,7 +103,7 @@ class CreateNewEmployeeWithIncorrectDataCest
                         'position' => 'developer',
                         'age' => 45
                     ]];
-                /*yield [
+                yield [
                     'requestBody' => [
                         'name' => 'Kirill',
                         'email' => '@test.ru',
@@ -258,15 +258,15 @@ class CreateNewEmployeeWithIncorrectDataCest
                 yield [
                     'requestBody' => [null]
                 ];
-              */  /*yield [
+              yield [
                     'requestBody' => [
                         'name' => 'Max20',
                         'email' => 'test17@test.ru',
                         'position' => "developer23",
                         'age' => 30,
                         'isSinge'=>true,
-                    ]];*/
-/*
+                    ]];
+
         yield [
             'requestBody' => [
                 'id'=>111111,
@@ -276,7 +276,7 @@ class CreateNewEmployeeWithIncorrectDataCest
                 'age' => 30,
 
 
-            ]];*/
+            ]];
 
 
     }
